@@ -1,0 +1,30 @@
+{
+    "name": "decimalism/tp-param",
+    "type": "library",
+    "description": "process param",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kuang",
+            "email": "decimailsm.x@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "decimalism\\param\\": "src/"
+        },
+        "files": ["src/helpers.php"],
+        "psr-0":{
+            "decimalism\\param\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "require": {}
+}
